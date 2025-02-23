@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\lavan\\OneDrive\\Desktop\\DevOps Projects\\ARGO CICD Project\\dotnet_sample\\MyWebApp\\MyWebApp.csproj",
+      "projectUniqueName": "C:\\Users\\lavan\\OneDrive\\Desktop\\DevOps Projects\\ARGO CICD Project\\ARGOCICD_DotnetApp\\dotnet_sample\\MyWebApp\\MyWebApp.csproj",
       "projectName": "MyWebApp",
-      "projectPath": "C:\\Users\\lavan\\OneDrive\\Desktop\\DevOps Projects\\ARGO CICD Project\\dotnet_sample\\MyWebApp\\MyWebApp.csproj",
+      "projectPath": "C:\\Users\\lavan\\OneDrive\\Desktop\\DevOps Projects\\ARGO CICD Project\\ARGOCICD_DotnetApp\\dotnet_sample\\MyWebApp\\MyWebApp.csproj",
       "packagesPath": "C:\\Users\\lavan\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\lavan\\OneDrive\\Desktop\\DevOps Projects\\ARGO CICD Project\\dotnet_sample\\MyWebApp\\obj\\",
+      "outputPath": "C:\\Users\\lavan\\OneDrive\\Desktop\\DevOps Projects\\ARGO CICD Project\\ARGOCICD_DotnetApp\\dotnet_sample\\MyWebApp\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\lavan\\AppData\\Roaming\\NuGet\\NuGet.Config"
