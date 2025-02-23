@@ -16,7 +16,7 @@ WORKDIR /app
 COPY --from=build /out .
 
 # Expose the port used in Program.cs
-EXPOSE 8082
+EXPOSE 8080
 
 # Start the application
 CMD ["dotnet", "MyWebApp.dll"]
