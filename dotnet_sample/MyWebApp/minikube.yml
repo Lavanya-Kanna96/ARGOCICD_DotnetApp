@@ -1,0 +1,35 @@
+---
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: mywebapp-deployment
+spec:
+  replicas: 3
+  selector:
+    matchLabels:
+      app: mywebapp
+  template:
+    metadata:
+      labels:
+        app: mywebapp
+    spec:
+      imagePullSecrets:
+        - name: ecr-secret  
+      containers:
+        - name: mywebapp
+          image: 135808934074.dkr.ecr.us-east-1.amazonaws.com/myapp_argocicd:latest
+          imagePullPolicy: Always
+
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: mywebapp-service
+spec:
+  selector:
+    app: mywebapp
+  ports:
+    - protocol: TCP
+      port: 80
+      targetPort: 8080
+  type: ClusterIP  # Change to LoadBalancer if needed
